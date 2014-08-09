@@ -1,0 +1,29 @@
+{
+  "name": "MOOG_IMAP",
+  "description": "MOOG IMAP integration EWE",
+  "version": "1.0.1",
+  "keywords": [
+    "IMAP",
+    "MOOG"
+  ],
+  "maintainers": [
+    "Stephen Hart <stephen@moogsoft.com> (www.moogsoft.com)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/moogsoft/tbd"
+  },
+  "dependencies": {
+    "mail-listener2": "0.1.7"
+  },
+  "directories": {
+    "attachments": "./attachments"
+  },
+  "main": “moog_IMAP.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stephen@moogsoft.com",
+  "license": "ISC",
+  "readme": "See the Google Doc: IMAP Email LAM Instructions.gdoc"
+}
